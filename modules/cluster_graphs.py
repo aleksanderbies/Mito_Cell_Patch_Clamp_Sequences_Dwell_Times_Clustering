@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 def draw_clusters_scatterplot(cluster_0, cluster_1, cluster_2, cluster_3):
-    fig = plt.figure(figsize=(6,7))
+    fig = plt.figure(figsize=(10,7))
     ax = plt.axes(projection = '3d')
 
     ax.scatter(cluster_0[0], cluster_0[1], cluster_0[2], alpha=0.8, c='red', label="Cluster 0")
